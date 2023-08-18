@@ -46,6 +46,7 @@ header h1 {
     margin: 0;
     font-size: 4vw;
     line-height: 1;
+    border-radius: 0px 5px 5px 0px;
 
 }
 
@@ -91,7 +92,7 @@ main {
     flex-wrap:wrap;
     align-items:stretch;
     justify-content:space-between;
-    
+    border-radius: 5px;
     border: 2px solid red
 }
 
@@ -101,7 +102,8 @@ main {
     background-color: var(--tertiary);
     padding: 20px;
     gap: 100px 100px; */
-    border: 2px dotted blue;
+    border: 2px solid black;
+    border-radius: 5px;
     display:flex;
     width: 90%;
     justify-content: space-around;
@@ -110,16 +112,40 @@ main {
     align-items: center;
 }
 .work-item{
-    border:2px solid green;
-    width:49%;
+    border:2px solid rgb(3, 20, 3);
+    width:50%;
 }
 
 .work-1{
     background-image: url(../images/challenge1shot.PNG);
-    background-size:contain;
+    background-size:cover;
     min-height: 50%;
-    height: 35vh;
+    height: 81vh;
     width: 80vw;
+}
+
+.work-2{
+    background-image: url(../images/baby.jfif);
+    background-size:contain;
+
+
+}
+
+.work-3{
+    background-image: url(../images/baby.jfif);
+    background-size: contain;
+}
+
+.work-4{
+    background-image: url(../images/baby.jfif);
+    background-size: contain;
+
+}
+
+.work-5{
+    background-image: url(../images/baby.jfif);
+    background-size: contain;
+
 }
 
 #about-me {
@@ -127,22 +153,33 @@ main {
 
 }
 #about-me h2{
-    
+    Margin-left:10px;
+    text-decoration: underline;
 
 }
 #about-me div p {
-    background-color: aqua;
+    /* background-color: aqua; */
     width: 78vw;
+    Margin-left:10px;
+    border-radius: 5px;
+
 
 }
 
+#work h2{
+    margin-left: 10px;
+}
 .work-item div {
     border-radius: 10px;
     width: fit-content;
-    background-color: steelblue;
-    margin-top: 4vh;
+    background-color: rgb(156, 166, 174);
+    margin-top: 9vh;
+    padding:0px 5px 0px 5px
 }
 
+#contact h2{
+    margin-left: 10px;
+}
 address {
     display:flex;
     flex-direction: row;
